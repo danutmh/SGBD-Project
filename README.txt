@@ -22,3 +22,7 @@ Functii ce vor fi utilizate:
 - searchItem(input): cauta numele produsului in lista de produse
 - addItem(ID): va fi creat un cos de cumparaturi nou si adaugat in ShoppingBasket, apoi va fi adaugat produsul ID in cos
 - deleteItem(ID): va fi sters obiectul din cos; daca cosul este gol, acesta va fi sters
+- saleItem(ID,procent,durata): va updata pretul pentru un item din tabela Item pentru o perioada stabilita permanent\temporar
+- saleCategory(IDCategory,procent,durata): va updata preturile pentru o intreaga categorie Item pentru o perioada stabilita permanent\temporar
+- voucher
+- bonusItem(ID1,ID2): la adaugarea unui produs in cos, se va adauga un alt produs fara cost\cost redus
