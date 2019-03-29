@@ -1,11 +1,12 @@
 Magazin online
 
-Baza de date va contine urmatoarele tabele: Customer, ShoppingBasket, ShoppingBasket_Item, Item, CompanyName, Manufacturer, Warehouse_Item, Warehouse.
+Baza de date va contine urmatoarele tabele: Customer, ShoppingBasket, ShoppingBasket_Item, Item, RecommendedItem, CompanyName, Manufacturer, Warehouse_Item, Warehouse.
 
 Customer: email (cheie primara), numele, numarul de telefon si adresa.
 ShoppingBasket: ShoppingBasketID (cheie primara) si emailul clientului
 ShoppingBasket_Item: ID-ul cosului de cumparaturi(cheie straina), ID produs adaugat (cheie straina) si cantitatea dorita
-Item: ID-ul bunurilor disponibile (cheie straina), descriere, numele producatorului, numele si adresa firmei care il vinde, pretul produsului, numele produsului si  o descriere scurta a acestuia
+Item: ID-ul bunurilor disponibile (cheie straina), categorie, descriere, numele producatorului, numele si adresa firmei care il vinde, pretul produsului, numele produsului si  o descriere scurta a acestuia
+RecommendedItem: ID-ul produsului initial, ID-ul produsului recomandat
 CompanyName: CompanyID (cheie primara), numele companiei, adresa, numarul de telefon si site-ul sau
 Manufacturer: ManufacturerID (cheie primara) numele si adresa producatorului
 Warehouse_Item: ID-ul depozitului in care se regaseste prdusul (cheie straina), ID-ul produsului (cheie primara), cantitatea disponibila
